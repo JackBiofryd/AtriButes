@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<title>AtriButes</title>
+
+		<link rel="stylesheet" href="./style.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<header class="main-header">
+			<h1 class="XL-heading">
+				ATRI <br />
+				BUTES
+			</h1>
+		</header>
+
+		<div class="atributes-container">
+			<h2 class="atributes-title">YOUR PROGRESS</h2>
+			<div class="atributes-list">
+				<div class="at-item">
+					<button class="at-decrease">-0.1</button>
+					<div class="at-content">
+						Strength: <span class="at-number">2.2</span>
+					</div>
+					<button class="at-increase">+0.1</button>
+				</div>
+				<div class="at-item">
+					<button class="at-decrease">-0.1</button>
+					<div class="at-content">
+						Agility: <span class="at-number">1.7</span>
+					</div>
+					<button class="at-increase">+0.1</button>
+				</div>
+				<div class="at-item">
+					<button class="at-decrease">-0.1</button>
+					<div class="at-content">
+						Bitches: <span class="at-number">0.0</span>
+					</div>
+					<button class="at-increase">+0.1</button>
+				</div>
+			</div>
+			<div class="atributes-form hidden">
+				<form action="#" class="form">
+					<div class="input-container">
+						<input
+							class="input"
+							type="text"
+							name="atribute"
+							id="atribute"
+							placeholder="Enter Attribute..."
+						/>
+					</div>
+					<input type="submit" value="Submit" class="btn form-btn"></input>
+				</form>
+			</div>
+			<div class="new-atribute">
+				<button class="btn">+Add AtriBute</button>
+			</div>
+
+			<script src="./LocalStorage.js"></script>
+			<script src="./DOM.js"></script>
+			<script src="./app.js"></script>
+		</div>
+	</body>
+</html>
